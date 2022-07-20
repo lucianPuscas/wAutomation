@@ -1,0 +1,23 @@
+{
+    "coverImage": {
+        "type": ""
+      },
+      "title": "Public Collection",
+      "title1":"Private Collection Test Lucian!",
+      "description": "This is a test collection that will be Public.",
+      "description1":"Test Desciption Lucian",
+      "visibility": "Public",
+    "posts": 
+    
+        {
+      "type": "url",
+      "data": "http://www.youtube.com/",
+      "layout": "",
+      "sharing": true,
+      "collaboration": true,
+      "background": false,
+      "backgroundImage": {
+        "type": ""
+      }
+        }
+}

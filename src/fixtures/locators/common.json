@@ -1,0 +1,27 @@
+{
+  "header": {
+    "logo": "header a.start-justified",
+    "search": "paper-button#searchButton",
+    "searchInput": "input[placeholder='Enter your search term...']",
+    "searchIconButton": "iron-icon[icon='wakelet:search']",
+    "inspirationButton": "paper-button#inspirationbutton",
+    "showcaseButton": "paper-button#showcasebutton",
+    "homeButton": "paper-button#homebutton",
+    "avatar": "paper-button#profilebutton2",
+    "notificationsDropdownIcon": "paper-icon-button.icon-notification",
+    "menuDropdownIconButton": "paper-icon-button.dropdown-trigger[icon='wakelet:triple-dot']",
+    "followingPage": "a.link-follow:contains('Following')",
+    "noFollowingImg":"img[src='https://assets.wakelet.com/monomer/onboarding/new/NoFollowing_1.png']",
+    "noFollowersImg":"img[src='https://assets.wakelet.com/monomer/onboarding/new/NoFollowers_1.png']",
+    "findUsersToFollow":"paper-button.btn--primary:contains('Find users to follow')",
+    "goToCollection":"paper-button.btn--primary:contains('Go to Collections')",
+    "followersPage": "a.link-follow:contains('Followers')",
+    "exploreIframe":"iframe.iframe",
+    "menu": {
+      "viewPublicProfile": "[data-testid='view-public-profile-link-item']",
+      "settings": "[data-testid=header-settings-item]",
+      "switchAccounts": "[data-testid='header-switch-accounts-item']",
+      "logOut": "[data-testid='header-logout-item']"
+    }
+  }
+}

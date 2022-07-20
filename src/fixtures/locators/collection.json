@@ -1,0 +1,72 @@
+{
+ "body":"my-app[page='wake']",
+  "wrapper": "div.cards__container",
+  "collectionContainer":"div.pl--xl.pr--xl",
+  "createCardTileButton": "paper-button.create__container",
+  "layoutDialogMedia":"div.layout-modal__content-section-title:contains('Media view')",
+  "layoutDialogGrid":"div.layout-modal__content-section-title:contains('Grid view')",
+  "layoutTestButton":"wk-ui-material-button.cta-button:contains('Use layout')",
+  "collection": {
+    "coverImageButton": "",
+    "nameTextarea": "textarea[placeholder='First, give your collection a title...']",
+    "mirorText":"div#mirror.mirror-text",
+    "descriptionTextarea": "textarea[placeholder='And add an awesome description!']",
+    "post": {
+      "addButton": "[data-testid='add-content-plus-icon']",
+      "pasteUrlInput": "input[placeholder='Paste any web address']",
+      "pasteUrlButton": "paper-icon-button#addButton[icon='wakelet:add']",
+      "textOption": "paper-icon-button#note[icon='wakelet:write-something']",
+      "textInput": "div.ql-editor[data-placeholder='Go ahead - write something wonderful...']",
+      "textDoneButton": "div.item-card paper-button.btn--primary:contains('Done')"
+    },
+    "cookiesBanner":"iron-icon[icon='wakelet:close']",
+    "collectionCards":"div#cards",
+    "cardTitleEditMode":"div.edit-menu__container",
+    "cardTitle":"span.block.wk-ui-text.title.fs--ml.fw--sb:contains('YouTube')",
+    "privacyDropdownContent":"div.dropdown-parent.visibility__menu[slot='dropdown-content']",
+    "privacyMenuDropdownButton": "paper-button[data-testid='collection-header-privacy']",
+    "privacyOptions": {
+      "public": "paper-item[data-testid='collection-header-privacy--public']",
+      "unlisted": "paper-item[data-testid='collection-header-privacy--unlisted']",
+      "private": "paper-item[data-testid='collection-header-privacy--private']"
+    },
+    "settingsButton": "paper-icon-button[icon='wakelet:settings']",
+    "savedChangesIcon": "span.changes-saved__icon",
+    "savedChangesText": "span.fs--s.pr--xl.fw--sb",
+    "doneButton": "[data-testid='collection-header-done-button']:contains()",
+    "homeButton": "[data-testid='header-home-button']",
+    "instruction": {
+      "whenYoureFinished": "paper-button.btn--primary:contains('Okay, got it!')"
+    },
+    "optionsButton": "paper-button.move-button-container",
+    "options": {
+      "deleteButton": "div.dropdown-menu-item:contains('Delete Collection')",
+      "delete": {
+        "deleteButton": "wk-ui-material-button#delete-btn:contains('Delete')",
+        "cancelButton": ""
+      }
+    }
+  },
+  "settings": {
+    "wrapper": "[data-testid='collection-settings']",
+    "closeIconButton": "[data-testid='collection-settings-close-button']",
+    "title": "[data-testid='']",
+    "apperance": {
+      "title": "[data-testid='collection-settings-apperance-title']",
+      "addBackgroundButton": ""
+    },
+    "sharing": {
+      "title": "[data-testid='collection-settings-sharing-title']",
+      "copyToggle": "[data-testid='collection-settings-sharing-option-toggle']",
+      "copyToggleName": "[data-testid='collection-settings-sharing-option-name']",
+      "copyDescription": "[data-testid='collection-settings-sharing-option-text']"
+    },
+    "collaboration": {
+      "title": "[data-testid='collection-settings-collaboration-title']",
+      "contributorsEditingToggle": "[data-testid='collection-settings-collaboration-option-toggle']",
+      "contributorsEditingToggleName": "[data-testid='collection-settings-collaboration-option-name']",
+      "contributorsEditingDescription": "[data-testid='collection-settings-collaboration-option-text']"
+    }
+  },
+  "visibility": "div#visibility iron-icon.visibility__icon.visibility__icon__primary"
+}

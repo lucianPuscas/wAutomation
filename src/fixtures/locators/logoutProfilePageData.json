@@ -1,0 +1,19 @@
+{
+    "bioLinks":{
+        "bioLink":".space-x-6 a",
+        "link1":"bbc.com",
+        "link2":"facebook.com",
+        "link3":"twitter.com",
+        "link4":"instagram.com"
+    },
+    "shareProviders":{
+        "qr":"wakelet.com/@WebAutomation2/qr",
+        "teams":"https://teams.microsoft.com/share",
+        "classrooms":"https://classroom.google.com/sharewidget",
+        "facebook":"http://www.facebook.com/sharer",
+        "twitter":"https://twitter.com/intent/",
+        "remind":"https://www.remind.com/share_sdk/",
+        "reddit":"http://www.reddit.com/submit"
+
+    }
+}

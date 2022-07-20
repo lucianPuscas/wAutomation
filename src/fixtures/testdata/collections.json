@@ -1,0 +1,48 @@
+[
+  {
+    "coverImage": {
+      "type": ""
+    },
+    "title": "Public Collection",
+    "description": "This is a test collection that will be Public.",
+    "visibility": "Public",
+    "posts": [
+      {
+        "type": "url",
+        "data": {
+          "url": "http://www.bbc.co.uk/"
+        }
+      }
+    ],
+    "layout": "",
+    "sharing": true,
+    "collaboration": true,
+    "background": false,
+    "backgroundImage": {
+      "type": ""
+    }
+  },
+  {
+    "coverImage": {
+      "type": ""
+    },
+    "title": "Private Collection",
+    "description": "This is a test collection that will be Private.",
+    "visibility": "Private",
+    "posts": [
+      {
+        "type": "text",
+        "data": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      }
+    ],
+    "layout": "",
+    "sharing": false,
+    "collaboration": false,
+    "background": false,
+    "backgroundImage": {
+      "type": ""
+    }
+  }
+]

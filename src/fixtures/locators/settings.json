@@ -1,0 +1,12 @@
+{
+  "manageAccount": {
+    "deleteAccount": {
+      "deleteButton": "paper-button.btn--negative:contains('Delete account')",
+      "modal": {
+        "passwordInput": "input[type='password']",
+        "cancelButton": "paper-button.btn--tertiary:contains('Cancel')",
+        "deleteButton": "paper-button.btn--negative:contains('Delete')"
+      }
+    }
+  }
+}

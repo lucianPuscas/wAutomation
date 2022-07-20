@@ -1,0 +1,51 @@
+{
+  "name": "web-automation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf node_modules yarn.lock",
+    "lint": "eslint \"./src/**/*.js\"",
+    "pretty": "pretty-quick --staged",
+    "open": "cypress open --browser chrome",
+    "test:dev": "cypress run --browser chrome",
+    "test:it": "cypress run --browser chrome --headless",
+    "update-snapshots": "cypress run --env type=base --browser chrome --headless --spec 'src/integration/snapshot/*'",
+    "test:snapshot": "cypress run --env type=actual --browser chrome --headless --spec 'src/integration/snapshot/*'",
+    "update-snapshots:dev": "cypress run --env type=base --browser chrome --headless",
+    "test:snapshot:dev": "cypress run --env type=actual --browser chrome  --headless"
+  },
+  "author": "Shaun Swales, Jacob Cable, Lucian Puscas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "10.3.0",
+    "cypress-dotenv": "1.2.1",
+    "cypress-localstorage-commands": "1.2.1",
+    "cypress-visual-regression": "^1.5.8",
+    "cypress-xpath": "1.6.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "faker": "^4.1.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint"
+    }
+  },
+  "percy": {
+    "snapshot": {
+      "enableJavaScript": true
+    },
+    "version": 2
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pixelmatch": "^5.2.1",
+    "pngjs": "^6.0.0"
+  }
+}

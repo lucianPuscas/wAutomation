@@ -1,0 +1,54 @@
+{
+    "collectionData":{
+        "signupPage":"https://accounts.wakelet.com/openid/signup",
+        "pdfUrl":"wakelet.com/wake/BHO5fXJTX323dFAjNlhIJ#pdf-export",
+        "shareProvidersUrl":{
+            "qr":"wakelet.com/wake/BHO5fXJTX323dFAjNlhIJ/qr",
+            "teams":"https://teams.microsoft.com/share",
+            "facebook":"http://www.facebook.com/sharer.php",
+            "twitter":"https://twitter.com/",
+            "remind":"https://www.remind.com/share_sdk/composer",
+            "reddit":"http://www.reddit.com/submit",
+            "classrooms":"https://classroom.google.com/sharewidget"
+        },
+        "pageItems":{
+            "imageCard":"[data-testid='wk-card-body']"
+
+        },
+        "footerSocialLinks":{
+            "youtube":"https://www.youtube.com/user/wakelet",
+            "twitter":"https://twitter.com/wakelet",
+            "facebook":"https://www.facebook.com/wakelet",
+            "instagram":"https://www.instagram.com/wakelet/"
+        },
+        "readModeButtons":{
+            "closeReader":"header button",
+            "next":"button.next",
+            "previeus":"button.prev",
+            "visitOriginal":"#readmode a:contains('Visit Original')",
+            "viewOnYoutube":"#readmode a:contains('View on YouTube')",
+            "swiperCards":"div.swiper-slide-visible"
+        },
+        "readModeData":{
+            "collectionItem":"[data-testid='readmode-card'] a",
+            "twitterItem":"[data-testid='readmode-card'] .twitter-tweet iframe",
+            "twitterId":"1463884531602178048",
+            "sparkItem":"[data-testid='readmode-card'] iframe",
+            "sparkUrl":"https://spark.adobe.com/video/QH96z2GM0zdE8",
+            "gDriveUrl":"https://docs.google.com/spreadsheets/d/1CELm8sdVjmpowyFC1-1EgBJsQrGnwOqi2mexAZc1EOU/edit?usp=drive_web",
+            "textItem":"[data-testid='readmode-card']",
+            "text":"Guardians of the Galaxy",
+            "youtubeItem":"iframe#widget2",
+            "youtubeUrl":"https://www.youtube.com/embed/W0M5vydkJzc",
+            "pdfItem":"div.swiper-slide a",
+            "pdfUrl":"/R21fcNzWqeQQ5Fzan04PIWHInw-WNA",
+            "flipgridItem":"[data-testid='readmode-card'] iframe",
+            "flipgridUrl":"https://shorts.flipgrid.com/watch/22575791311946039",
+            "OneDriveUrl":"https://wakelettenant-my.sharepoint.com/:v:/g/personal/cbeane_wakelettenant_onmicrosoft_com/ERP17ILoJJ9MqrD8wRYzDMEBVGReRWEHd2vcqbM0T94bZA",
+            "linksUrl":"https://en.wikipedia.org/wiki/B._Max_Mehl"
+            
+        }      
+        
+    }
+}
+

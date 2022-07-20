@@ -1,0 +1,11 @@
+{
+  "name": "Automation Test User",
+  "emailAddress": "automation-Abdul.VonRueden0@wakelet.co.uk",
+  "username": "atAbdulVonRueden0",
+  "password": "Test@123",
+  "birthday": {
+    "day": 12,
+    "month": "09",
+    "year": 1990
+  }
+}

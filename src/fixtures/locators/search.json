@@ -1,0 +1,18 @@
+{
+  "searchInput": "input[placeholder='Search'][aria-labelledby='paper-input-label-2']",
+  "searchTypeButton": "div.search__container paper-button",
+  "selectedSearchTypeButton": "div.search__container paper-button.selected",
+  "collections": {
+    "wrapper": " ",
+    "image": "paper-button.view-collection__btn",
+    "title": "div.collection__content div.collection__title",
+    "items": "div.collection__item-total",
+    "createdBy": "a.text--default"
+  },
+  "people": {
+    "wrapper": "div.item-card ",
+    "image": "div#sizedImgDiv",
+    "name": "div.item__title",
+    "username": "div.item__handle"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "testDescription": "should be able to search for part of a collection name",
+      "searchTerm": "Swales",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "Collections",
+      "expectedResultDetails": {
+        "title": "Swales Consultancy",
+        "items": "1 item",
+        "createdBy": "Shaun Swales"
+      }
+    },
+    {
+      "testDescription": "should be able to search for a full collection name (Lowercase)",
+      "searchTerm": "swales consultancy",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "Collections",
+      "expectedResultDetails": {
+        "title": "Swales Consultancy",
+        "items": "1 item",
+        "createdBy": "Shaun Swales"
+      }
+    },
+    {
+      "testDescription": "should be able to search for a full collection name (Uppercase)",
+      "searchTerm": "SWALES CONSULTANCY",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "Collections",
+      "expectedResultDetails": {
+        "title": "Swales Consultancy",
+        "items": "1 item",
+        "createdBy": "Shaun Swales"
+      }
+    },
+    {
+      "testDescription": "should be able to search for a full collection name (Capitalised)",
+      "searchTerm": "Swales Consultancy",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "Collections",
+      "expectedResultDetails": {
+        "title": "Swales Consultancy",
+        "items": "1 item",
+        "createdBy": "Shaun Swales"
+      }
+    },
+    {
+      "testDescription": "should be able to search for user by partial name",
+      "searchTerm": "Swales",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "People",
+      "expectedResultDetails": {
+        "name": "Shaun Swales",
+        "username": "@swales"
+      }
+    },
+
+    {
+      "testDescription": "should be able to search for user by full name (Captialised)",
+      "searchTerm": "Shaun Swales",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "People",
+      "expectedResultDetails": {
+        "name": "Shaun Swales",
+        "username": "@swales"
+      }
+    },
+    {
+      "testDescription": "should be able to search for user by full name (Uppercase)",
+      "searchTerm": "SHAUN SWALES",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "People",
+      "expectedResultDetails": {
+        "name": "Shaun Swales",
+        "username": "@swales"
+      }
+    },
+    {
+      "testDescription": "should be able to search for user by full name (Lowercase)",
+      "searchTerm": "shaun swales",
+      "expectedDefaultSearchType": "Collections",
+      "changeSearchTypeTo": "People",
+      "expectedResultDetails": {
+        "name": "Shaun Swales",
+        "username": "@swales"
+      }
+    }
+  ]
+}
